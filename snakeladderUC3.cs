@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace snakeandladder
 {
-    internal class snakeladderUC3
+     internal class snakeladderUC3
     {
+    
+       public static int dicecount = 0;
+        public static int num1;
         public static void UC3()
-        { 
-           int position = 0;
+        {
+            int position = 0;
             
             //Random number for rolldice
             Random obj = new Random();
@@ -46,6 +49,7 @@ namespace snakeandladder
                 Console.WriteLine("You got snake \n your position: {0} \n ", position);
 
             }
+
         }
     }
 }
